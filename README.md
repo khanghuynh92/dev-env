@@ -8,9 +8,10 @@ my development environment set up
     - [Utilities](#utilities)
   - [Mac Apps](#mac-apps)
     - [Development](#development)
+    - [Design](#design)
     - [Communication](#communication)
     - [Utilities](#utilities)
-  - [VS Code Extensions](#vs-code-extensions)
+  - [Atom Extensions](#atom-extensions)
     - [Prerequisites](#prerequisites)
     - [Usage](#usage)
 - [/git](#git)
@@ -44,17 +45,20 @@ my development environment set up
 #### Development
 
 - [Trello](https://trello.com/platforms)
-- [VS Code](https://code.visualstudio.com/Download)
+- [Atom](https://atom.io/)
 - [Docker](https://docs.docker.com/install)
 - [RoboMongo](https://robomongo.org/download)
 - [SquelPro](https://www.sequelpro.com/download)
 - [Medis](https://github.com/luin/medis/releases/tag/v0.3.0)
 - [Postman](https://www.getpostman.com/apps)
 
+#### Design
+- [Sketch](https://www.sketchapp.com/)
+- [Adobe Photoshop CC](https://www.adobe.com/products/photoshop.html?promoid=PC1PQQ5T&mv=other)
+
 #### Communication
 
 - [Slack](https://slack.com/downloads/osx)
-- [Mattermost](https://about.mattermost.com/download)
 - [Messenger](https://fbmacmessenger.rsms.me)
 - [Skype](https://www.skype.com/en/get-skype)
 
@@ -67,68 +71,67 @@ my development environment set up
 - [VLC](https://www.videolan.org/vlc)
 - [WebTorrent](https://webtorrent.io/desktop)
 
-### VS Code Extensions
-
-Installing multiple extensions at once.
-
-*Must have:*
-
-- [Settings Sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync)
-- [Project Manager](https://marketplace.visualstudio.com/items?itemName=alefragnani.project-manager)
-
-*Lint & Intellisense:*
-
-- [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
-- [TSLint](https://marketplace.visualstudio.com/items?itemName=eg2.tslint)
-- [StyleLint](https://marketplace.visualstudio.com/items?itemName=shinnn.stylelint)
-- [MarkdownLint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint)
-- [npm Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.npm-intellisense)
-- [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)
-- [SCSS Intellisense](https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-scss)
-- [Docker IntelliSense](https://marketplace.visualstudio.com/items?itemName=PeterJausovec.vscode-docker)
+### Atom Extensions
 
 *Theme & Icon:*
 
-- [Theme - Oceanic Next](https://marketplace.visualstudio.com/items?itemName=naumovs.theme-oceanicnext)
-- [Ayu](https://marketplace.visualstudio.com/items?itemName=teabyii.ayu)
+- [UI Theme: one-dark-ui](https://atom.io/themes/one-dark-ui)
+- [UI Material: atom-material-ui](https://atom.io/themes/atom-material-ui)
+- [Syntax Theme: dracula-theme](https://atom.io/packages/dracula-syntax)
 
 *Utilities:*
 
-- [Auto Close Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag)
-- [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)
-- [Color Highlight](https://marketplace.visualstudio.com/items?itemName=naumovs.color-highlight)
-- [Import Cost](https://marketplace.visualstudio.com/items?itemName=wix.vscode-import-cost)
-- [Git History](https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory)
-- [Markdown All-in-One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)
-- [Swagger Viewer](https://marketplace.visualstudio.com/items?itemName=Arjun.swagger-viewer)
-- [Beautify](https://marketplace.visualstudio.com/items?itemName=HookyQR.beautify)
-- [change-case](https://marketplace.visualstudio.com/items?itemName=wmaurer.change-case)
-- [vscode-base64](https://marketplace.visualstudio.com/items?itemName=adamhartford.vscode-base64)
-- [Polacode](https://marketplace.visualstudio.com/items?itemName=pnp.polacode)
+- [atom-beautify](https://atom.io/packages/atom-beautify)
+- [prettier-atom](https://atom.io/packages/prettier-atom`)
+- [atom-transpose](https://atom.io/packages/atom-transpose)
+- [case-keep-replace](https://atom.io/packages/case-keep-replace)
+- [change-case](https://atom.io/packages/change-case)
+- [copy-path](https://atom.io/packages/copy-path)
+- [duplicate-line-or-selection](https://atom.io/packages/editorconfig)
+- [editorconfig](https://atom.io/packages/editorconfig)
+- [file-icons](https://atom.io/packages/file-icons)
+- [git-plus](https://atom.io/packages/git-plus)
+- [highlight-selected](https://atom.io/packages/highlight-selected)
+- [local-history](https://atom.io/packages/local-history)
+- [project-manager](https://atom.io/packages/project-manager)
+- [sync-settings](https://atom.io/packages/sync-settings)
+- [toggle-quotes](https://atom.io/packages/toggle-quotes)
+- [autoclose-html](https://atom.io/packages/autoclose-html)
+- [set-syntax](https://atom.io/packages/set-syntax)
+- [minimap](https://atom.io/packages/minimap)
+- [platformio-ide-terminal](https://atom.io/packages/platformio-ide-terminal)
+- [merge-conflicts](https://atom.io/packages/merge-conflicts)
+- [js-hyperclick & hyperclick](https://atom.io/packages/js-hyperclick & hyperclick)
+- [related](https://atom.io/packages/related)
+- [sort-lines](https://atom.io/packages/sort-lines)
+- [lebab](https://atom.io/packages/lebab)
 
-#### Prerequisites
 
-Make sure [VS Code](https://code.visualstudio.com/Download) is installed on your local machine and add its executable to the `PATH` environment variable by:
+*HTML/CSS/JS/React Specific Packages:*
+- [atom-ternjs](https://atom.io/packages/atom-ternjs)
+- [atom-wrap-in-tag](https://atom.io/packages/atom-wrap-in-tag)
+- [autoclose-html](https://atom.io/packages/autoclose-html)
+- [autocomplete-modules](https://atom.io/packages/autocomplete-modules)
+- [color-picker](https://atom.io/packages/color-picker)
+- [docblockr](https://atom.io/packages/docblockr)
+- [lodash-snippets](https://atom.io/packages/lodash-snippets)
+- [emmet](https://atom.io/packages/emmet)
+- [emmet-jsx-css-modules](https://atom.io/packages/emmet-jsx-css-modules)
+- [es6-javascript](https://atom.io/packages/es6-javascript)
+- [linter-eslint](https://atom.io/packages/linter-eslint)
+- [tree-view-copy-relative-path](https://atom.io/packages/tree-view-copy-relative-path)
 
-1. Open VS Code
-2. Type `Shift + Command + P` to open Command palette
-3. Then type & select `Shell Command: Install 'code' command in PATH`
 
 #### Usage
 
-To install extensions, run the following command:
+Install EVERYTHING!
 
 ```bash
-./toolset/vscode/run.sh --install
+apm install atom-beautify prettier-atom atom-transpose case-keep-replace change-case copy-path duplicate-line-or-selection editorconfig file-icons git-plus highlight-selected local-history project-manager related set-syntax atom-reveal-file-in-finder sort-lines sublime-style-column-selection tab-foldername-index toggle-quotes atom-wrap-in-tag atom-ternjs autoclose-html autocomplete-modules color-picker docblockr emmet emmet-jsx-css-modules es6-javascript js-hyperclick hyperclick pigments linter-eslint tree-view-copy-relative-path lodash-snippets one-dark-ui dracula-theme refactor js-refactor lebab minimap atom-material-ui merge-conflicts
 ```
 
-And to uninstall, run:
 
-```bash
-./toolset/vscode/run.sh --uninstall
-```
-
-Restart your VS Code to take effect. Then follow the [Settings Sync guide](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync) to download settings from your Gist to your VS Code.
+Restart your Atom to take effect.
 
 ## /git
 
